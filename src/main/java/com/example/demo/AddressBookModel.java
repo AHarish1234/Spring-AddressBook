@@ -1,18 +1,27 @@
 package com.example.demo;
 
-
 public class AddressBookModel {
+    private int id;            
     private String name;
     private String address;
 
     public AddressBookModel() {}
 
-    public AddressBookModel(String name, String address) {
+    public AddressBookModel(int id, String name, String address) {
+        this.id = id;
         this.name = name;
         this.address = address;
     }
 
-    // Getters and Setters
+   
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     public String getName() {
         return name;
     }
