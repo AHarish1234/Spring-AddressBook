@@ -1,12 +1,13 @@
 package com.example.demo;
 
-public class AddressBookDTO {
+
+public class AddressBookModel {
     private String name;
     private String address;
 
-    public AddressBookDTO() {}
+    public AddressBookModel() {}
 
-    public AddressBookDTO(String name, String address) {
+    public AddressBookModel(String name, String address) {
         this.name = name;
         this.address = address;
     }
