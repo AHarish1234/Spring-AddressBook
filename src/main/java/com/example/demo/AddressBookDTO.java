@@ -11,7 +11,6 @@ public class AddressBookDTO {
         this.address = address;
     }
 
-    // Getters and Setters
     public String getName() {
         return name;
     }
